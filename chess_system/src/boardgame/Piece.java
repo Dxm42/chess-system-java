@@ -1,8 +1,10 @@
 package boardgame;
 
+import chess.ChessPosition;
+
 public class Piece {
 	
-	protected Position position;
+	protected ChessPosition position;
 	private Board board;
 	
 	public Piece(Board board) {
